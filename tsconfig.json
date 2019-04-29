@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "checkJs": false,
-    "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "moduleResolution": "node",
@@ -12,7 +10,8 @@
     "skipLibCheck": true,
     "strict": true,
     "resolveJsonModule": true,
-    "outDir": "./lib"
+    "outDir": "./lib",
+    "declaration": true
   },
   "exclude": ["node_modules", "lib"]
 
