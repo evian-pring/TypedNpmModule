@@ -5,13 +5,13 @@
     "moduleResolution": "node",
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "target": "es5",
     "skipLibCheck": true,
     "strict": true,
     "resolveJsonModule": true,
     "outDir": "./lib",
-    "declaration": true
+    "declaration": true,
   },
   "exclude": ["node_modules", "lib"]
 }
